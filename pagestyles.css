@@ -30,3 +30,17 @@
   .education #educ-heading{
     grid-column: 1 / span 3;
   }
+  .skills {
+    display: grid; grid-template-columns: auto auto; grid-template-rows: auto 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+  }
+  .skills #skills-heading {
+    grid-column: 1 / span 2;
+  }
+.work_history {display: grid; grid-template-columns: 50% auto; grid-template-rows: auto 30px 30px;}
+.work_history #work-heading {grid-column: 1 / 3;}
+#profile-link{
+background-color: black; padding: 5px; text-align: center;
+}
+#profile-link a{
+  display: inline-block; width: 100px; border: 1px solid white; padding: 5px; color: white;
+}
