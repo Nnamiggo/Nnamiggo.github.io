@@ -34,11 +34,10 @@ img {position: absolute; width:150px; height: 200px; left: 0; border-radius: 15%
   display: block;
   position: relative;
   width: 70%;
-
+  right: 0;
   left: 30%;
   height: auto;
   border-left: 1px solid grey;
-  padding-left: : 10px;
 }
 
 #navbar a {
